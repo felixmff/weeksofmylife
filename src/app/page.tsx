@@ -65,7 +65,12 @@ const Page = () => {
           <Button onClick={toggleDarkMode}>
             {isDarkMode ? <SunMoon /> : <Moon />}
           </Button>
-          <Settings expectedLifeSpan={expectedLifeSpan} setExpectedLifeSpan={setExpectedLifeSpan} birthday={birthday} setBirthday={setBirthday}>
+          <Settings 
+            expectedLifeSpan={expectedLifeSpan} 
+            setExpectedLifeSpan={setExpectedLifeSpan} 
+            birthday={birthday} 
+            setBirthday={setBirthday}
+          >
             <Button>Settings</Button>
           </Settings>
         </div>
